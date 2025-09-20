@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { useAppStore } from "@/store";
 import Lottie from "react-lottie";
 import { animationDefaultOptions } from "@/lib/utils";
-import { Footer } from "@/components/Footer"; 
+import { Footer } from "@/components/footer"; 
 
 
 const Auth = () => {

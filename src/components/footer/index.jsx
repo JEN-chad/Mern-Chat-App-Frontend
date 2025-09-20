@@ -14,7 +14,7 @@ export const Footer = () => {
         <FaGithub />
       </a>
 
-      {/* LinkedIn */}
+      {/* LinkedIn  */}
       <a
         href="https://linkedin.com/in/jenishj-dev"
         target="_blank"

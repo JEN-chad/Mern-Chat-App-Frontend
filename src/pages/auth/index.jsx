@@ -10,6 +10,8 @@ import { useNavigate } from "react-router-dom";
 import { useAppStore } from "@/store";
 import Lottie from "react-lottie";
 import { animationDefaultOptions } from "@/lib/utils";
+import { Footer } from "@/components/Footer"; 
+
 
 const Auth = () => {
   const navigate = useNavigate();
@@ -79,8 +81,8 @@ const Auth = () => {
   };
 
   return (
-    <div className="h-[100vh] w-[100vw] flex items-center justify-center bg-[#2a2b33]">
-      <div className="h-[80vh] bg-[#2a2b33] border-2 border-cyan-400 w-[80vw] text-white shadow-2xl md:w-[90vw] lg:w-[70vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-2">
+    <div className="h-[100vh] w-[100vw] flex items-center justify-center bg-[#2a2b33] ">
+      <div className="h-[80vh] bg-[#2a2b33] border-2 border-cyan-400 w-[80vw] text-white shadow-2xl mb-4 md:w-[90vw] lg:w-[70vw] xl:w-[60vw] rounded-3xl grid xl:grid-cols-2">
         
         {/* Left side: Auth form */}
         <div className="flex items-center justify-center flex-col gap-10 p-6">
@@ -189,6 +191,7 @@ const Auth = () => {
         </div>
 
       </div>
+      <Footer />
     </div>
   );
 };
